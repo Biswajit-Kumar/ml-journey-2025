@@ -1,60 +1,60 @@
-# my_Dict = {
-# A dictionary in Python stores data as key–value pairs just like a real-life dictionary where a word (key) maps to its meaning (value).
-#     "1.Name" : "Biswajit",
-#     "2.College" : "IIITA",
-#     "3.Degree" : "MTech",
-#     "4.Specialization" : "ML",
-#     "5.Year" : 1,
-#     "6.Semester" : 1,
-#     "7.Excited to learn" : "Python & DSA",
-#     "8.GOAL for next 6 months" : "Learn & Build"
-# }
-# print(my_Dict["1.Name"]);   #printing only one value
+ my_Dict = {
+ A dictionary in Python stores data as key–value pairs just like a real-life dictionary where a word (key) maps to its meaning (value).
+     "1.Name" : "Biswajit",
+     "2.College" : "IIITA",
+     "3.Degree" : "MTech",
+     "4.Specialization" : "ML",
+     "5.Year" : 1,
+     "6.Semester" : 1,
+     "7.Excited to learn" : "Python & DSA",
+     "8.GOAL for next 6 months" : "Learn & Build"
+ }
+ print(my_Dict["1.Name"]);   #printing only one value
 
-# #printing only keys
-# for key in my_Dict:
-#     print(key)
+ #printing only keys
+ for key in my_Dict:
+     print(key)
 
-# #printing only values
-# for value in my_Dict.values():
-#     print(value)
+ #printing only values
+ for value in my_Dict.values():
+     print(value)
 
-# #printing both keys and their respective values
-# for key, value in my_Dict.items():
-#     print(key, ":", value)
+ #printing both keys and their respective values
+ for key, value in my_Dict.items():
+     print(key, ":", value)
 
 
-# #Creating a calculator function
-# def add(a,b):
-# # add function
-#     print("The Sum of a & b is : ",a+b)
-# a = int(input("Enter the first value: "))     #to make it to int type
-# b = int(input("Enter the second value:"))     #to make it to int type
-# add(a,b)
+ #Creating a calculator function
+ def add(a,b):
+ # add function
+     print("The Sum of a & b is : ",a+b)
+ a = int(input("Enter the first value: "))     #to make it to int type
+ b = int(input("Enter the second value:"))     #to make it to int type
+ add(a,b)
 
-# def subtract(a,b):
-# # subtract function
-#     print("The Difference of a & b is : ",a-b)
-# a = int(input("Enter the first value: "))     #to make it to int type
-# b = int(input("Enter the second value:"))     #to make it to int type
-# subtract(a,b)
+ def subtract(a,b):
+ # subtract function
+     print("The Difference of a & b is : ",a-b)
+ a = int(input("Enter the first value: "))     #to make it to int type
+ b = int(input("Enter the second value:"))     #to make it to int type
+ subtract(a,b)
 
-# def multipy(a,b):
-# # multiply function
-#     print("The Product of a & b is : ",a*b)
-# a = int(input("Enter the first value: "))     #to make it to int type
-# b = int(input("Enter the second value:"))     #to make it to int type
-# multipy(a,b)
+ def multipy(a,b):
+ # multiply function
+     print("The Product of a & b is : ",a*b)
+ a = int(input("Enter the first value: "))     #to make it to int type
+ b = int(input("Enter the second value:"))     #to make it to int type
+ multipy(a,b)
 
-# def divide(a,b):
-# # divide function
-#     if b == 0:
-#         print("Can't divide by 0")
-#     else:
-#         print("The Quotient of a & b is : ",a/b)
-# a = int(input("Enter the first value: "))     #to make it to int type
-# b = int(input("Enter the second value:"))     #to make it to int type
-# divide(a,b)
+ def divide(a,b):
+ # divide function
+     if b == 0:
+         print("Can't divide by 0")
+     else:
+         print("The Quotient of a & b is : ",a/b)
+ a = int(input("Enter the first value: "))     #to make it to int type
+ b = int(input("Enter the second value:"))     #to make it to int type
+ divide(a,b)
 
 # A list in Python is an ordered collection of items.
 # It an store different data types together (numbers, strings, even other lists).
@@ -87,5 +87,6 @@ sorted_my_subjects = sorted(my_Subjects)      #here the original list remains th
 
 #if we want to sort in reverse
 my_Subjects.sort(reverse=True)        #sorts the list in reverse order
+
 
 
